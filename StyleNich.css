@@ -1,0 +1,77 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container-navbar {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisan-atas {
+    font-family: cursive;
+    list-style-type : none;
+    padding: 10px  ;
+    color: white;
+    margin: 5px;
+    font-size: 36px;
+}
+
+.tulisan-atas:hover {
+    background-color: bisque;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: -10px; /* biar deket dengan SONG HYE KYO */
+    padding-bottom: 10px;
+}
+
+.subtitle:hover {
+    background-color: rgb(88, 81, 205);
+    transition: .4s ease-in-out;
+    border-radius: 8px ;
+}
+
+.container-content {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.img-content {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;    /* gambar dipotong tapi proporsional */
+    object-position: center; /* fokus ke tengah gambar */
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+}
+
+.footer {
+    color: white; /* Ini bakal ngubah SEMUA tulisan dalam footer jadi putih */
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+}
