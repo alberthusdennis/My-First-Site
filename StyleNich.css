@@ -159,3 +159,136 @@ body {
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
     font-size: 20px;
 }
+
+/* 📱 RESPONSIVE DESIGN UNTUK HP */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .container-content {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .img-content {
+        width: 250px;
+        height: 350px;
+    }
+    
+    .footer {
+        max-width: 80%;
+        margin: 30px auto;
+    }
+}
+
+/* HP Medium (max-width: 768px) */
+@media (max-width: 768px) {
+    .tulisan-atas {
+        font-size: 32px;
+        padding: 8px 12px;
+        margin: 3px;
+    }
+    
+    .subtitle {
+        font-size: 22px;
+        padding: 8px 15px;
+    }
+    
+    .container-content {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    .img-content {
+        width: 280px;
+        height: 380px;
+    }
+    
+    .footer {
+        max-width: 90%;
+        padding: 20px;
+        font-size: 18px;
+        margin: 30px auto;
+    }
+    
+    .caption-gambar {
+        font-size: 20px;
+        padding: 8px 15px;
+    }
+}
+
+/* HP Small (max-width: 480px) */
+@media (max-width: 480px) {
+    .container-navbar {
+        height: 80px;
+    }
+    
+    .ul-navbar {
+        height: 80px;
+    }
+    
+    .tulisan-atas {
+        font-size: 24px;
+        padding: 6px 10px;
+        margin: 2px;
+    }
+    
+    .subtitle {
+        font-size: 18px;
+        margin-top: -3px;
+        padding: 5px 12px;
+    }
+    
+    .img-content {
+        width: 250px;
+        height: 350px;
+    }
+    
+    .footer {
+        max-width: 95%;
+        padding: 15px;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+    
+    .caption-gambar {
+        font-size: 18px;
+        padding: 6px 12px;
+    }
+}
+
+/* Very Small HP (max-width: 360px) */
+@media (max-width: 360px) {
+    .tulisan-atas {
+        font-size: 20px;
+        padding: 5px 8px;
+    }
+    
+    .subtitle {
+        font-size: 16px;
+    }
+    
+    .img-content {
+        width: 220px;
+        height: 320px;
+    }
+    
+    .footer {
+        max-width: 95%;
+        padding: 12px;
+        font-size: 15px;
+    }
+    
+    .footer h1 {
+        font-size: 1.8em;
+    }
+    
+    .footer h2 {
+        font-size: 1.4em;
+    }
+    
+    .caption-gambar {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+}
