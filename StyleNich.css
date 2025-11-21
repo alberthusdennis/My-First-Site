@@ -1,0 +1,161 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+.container-navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+}
+
+.tulisan-atas {
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type : none;
+    padding: 10px  ;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    background: #0f172a;
+    font-size: 46px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius:20px ;
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
+}
+
+.tulisan-atas:hover {
+    transform: 
+        perspective(1000px) /* Kamera 3D - semakin kecil angka, semakin dramatic */
+        rotateX(5deg) /* Miring ke belakang 5° (seperti kartu diangkat) */
+        rotateY(5deg) /* Miring ke samping 5° (efek 3D depth) */
+        translateY(-5px) /* Naik ke atas 15px (seperti melayang) */
+        scale(1.05); /* Membesar 5% (emphasis) */
+    
+    box-shadow: 
+        0 20px 40px rgba(34, 114, 251, 0.3),/* Shadow biru glow di bawah */
+        0 0 0 1px rgba(255, 255, 255, 0.2),/* Border putih subtle */
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);/* Highlight tipis di atas */
+    
+    border: 2px solid rgba(34, 114, 251, 0.5);
+}
+
+.subtitle {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-top: -5px; /* biar deket dengan SONG HYE KYO */
+    padding-bottom: 10px
+    padding 15px 15px;
+    border-radius: 15px;
+    display: inline;
+}
+
+.subtitle:hover {
+    transform: 
+        perspective(1000px) /* Kamera 3D - semakin kecil angka, semakin dramatic */
+        rotateX(5deg) /* Miring ke belakang 5° (seperti kartu diangkat) */
+        rotateY(5deg) /* Miring ke samping 5° (efek 3D depth) */
+        translateY(-5px) /* Naik ke atas 15px (seperti melayang) */
+        scale(1.05); /* Membesar 5% (emphasis) */
+    
+    box-shadow: 
+        0 20px 40px rgba(34, 114, 251, 0.3),/* Shadow biru glow di bawah */
+        0 0 0 1px rgba(255, 255, 255, 0.2),/* Border putih subtle */
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);/* Highlight tipis di atas */
+    
+    border: 2px solid rgba(34, 114, 251, 0.5);
+}
+
+.container-content {
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.img-content {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    
+    /* Modern Card Effects */
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    
+    /* Smooth Transition */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    /* 3D Effect */
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+}
+
+.img-content:hover {
+    transform: 
+        perspective(1000px) /* Kamera 3D - semakin kecil angka, semakin dramatic */
+        rotateX(5deg) /* Miring ke belakang 5° (seperti kartu diangkat) */
+        rotateY(5deg) /* Miring ke samping 5° (efek 3D depth) */
+        translateY(-15px) /* Naik ke atas 15px (seperti melayang) */
+        scale(1.05); /* Membesar 5% (emphasis) */
+    
+    box-shadow: 
+        0 20px 40px rgba(34, 114, 251, 0.3),/* Shadow biru glow di bawah */
+        0 0 0 1px rgba(255, 255, 255, 0.2),/* Border putih subtle */
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);/* Highlight tipis di atas */
+    
+    border: 2px solid rgba(34, 114, 251, 0.5);
+}
+
+.gambar-kartu {
+    position: relative;
+    text-align: center;
+}
+
+.caption-gambar {
+    font-size: 24px; /* sedikit lebih kecil */
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.caption-gambar:hover{
+    transform: scale(1.05);
+}
+
+.footer {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 50%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    font-size: 20px;
+}
