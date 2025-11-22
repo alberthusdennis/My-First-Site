@@ -160,6 +160,36 @@ body {
     font-size: 20px;
 }
 
+.footer2 {
+    text-align: center;
+    margin-top: -50px;
+    padding: 20px;
+}
+
+.insta {
+    width: 50px;           /* ✅ Ukuran logo */
+    height: 50px;
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+
+.social-container {
+    display: inline-flex;          /* 📏 Flexbox untuk sejajar horizontal */
+    align-items: center;          /* 📐 Rata tengah vertical */
+    gap: 12px;                    /* 📐 Jarak antara icon dan text */
+    background: rgba(255, 255, 255, 0.1);  /* 🎨 Background glassmorphism */
+    backdrop-filter: blur(10px);           /* 🔮 Efek blur */
+    padding: 12px 20px;           /* 📐 Jarak dalam */
+    border-radius: 20px;          /* 🔵 Sudut melengkung */
+    border: 1px solid rgba(255, 255, 255, 0.2);  /* ⚪ Border subtle */
+}
+
+.social-text {
+    color: aliceblue;
+    display: inline;
+    font-size: 22px;
+}
+
 /* 📱 RESPONSIVE DESIGN UNTUK HP */
 
 /* Tablet (max-width: 1024px) */
@@ -274,7 +304,7 @@ body {
     }
     
     .footer {
-        max-width: 95%;
+        max-width: 95%; 
         padding: 12px;
         font-size: 15px;
     }
